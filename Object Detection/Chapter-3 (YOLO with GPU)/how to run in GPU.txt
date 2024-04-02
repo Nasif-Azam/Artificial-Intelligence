@@ -1,0 +1,8 @@
+1. Update current GPU driver
+2. Install Nvidia CUDA
+3. Install cuDNN or CUDA DNN(Deep Neural Network)
+    3.1. Copy cuDNN bin files and paste into CUDA bin
+    3.2. Copy cuDNN include files and paste into CUDA include
+    3.3. Copy cuDNN lib files and paste into CUDA lib/x64
+4. Install pyTroch from official page: pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117
+5. Make sure 2,3, and 4 versions are same
